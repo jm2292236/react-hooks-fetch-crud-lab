@@ -74,8 +74,19 @@
         "Third",
         "Last one"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "id": 7
+    },
+    {
+      "prompt": "Method to create a new array",
+      "answers": [
+        "map",
+        "filter",
+        "count",
+        "string"
+      ],
+      "correctIndex": 1,
+      "id": 8
     }
   ]
 }

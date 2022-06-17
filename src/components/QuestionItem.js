@@ -18,8 +18,18 @@ function QuestionItem({ question, onDeleteQuestion }) {
         .then(() => onDeleteQuestion(id));
     }
 
-    function handleOnChangeClick() {
-        
+    // When the user changes the answer to the question it is not necessary to change questions state because
+    // it is already showing the right value
+    function handleOnChangeClick(event) {
+        fetch(`http://localhost:4000/questions/${id}`, {
+            method: "PATCH",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+                correctIndex: parseInt(event.target.value)
+            })
+        })
     }
 
 

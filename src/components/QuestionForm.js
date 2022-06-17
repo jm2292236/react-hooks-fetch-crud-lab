@@ -33,7 +33,7 @@ function QuestionForm() {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify(newQuestion),
-        })
+        });
     }
 
     return (
