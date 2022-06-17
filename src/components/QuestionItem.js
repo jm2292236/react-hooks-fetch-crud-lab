@@ -18,6 +18,10 @@ function QuestionItem({ question, onDeleteQuestion }) {
         .then(() => onDeleteQuestion(id));
     }
 
+    function handleOnChangeClick() {
+        
+    }
+
 
     return (
         <li>
@@ -25,7 +29,7 @@ function QuestionItem({ question, onDeleteQuestion }) {
             <h5>Prompt: {prompt}</h5>
             <label>
                 Correct Answer:
-                <select defaultValue={correctIndex}>{options}</select>
+                <select defaultValue={correctIndex} onChange={handleOnChangeClick}>{options}</select>
             </label>
             <button onClick={handleDeleteClick}>Delete Question</button>
         </li>

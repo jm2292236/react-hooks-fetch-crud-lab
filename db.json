@@ -67,37 +67,15 @@
       "correctIndex": 1
     },
     {
-      "prompt": "Nueva",
+      "prompt": "New Question",
       "answers": [
-        "111",
-        "222",
-        "333",
-        "444"
-      ],
-      "correctIndex": 0,
-      "id": 7
-    },
-    {
-      "prompt": "Otra",
-      "answers": [
-        "123",
-        "234",
-        "345",
-        "456"
-      ],
-      "correctIndex": 2,
-      "id": 8
-    },
-    {
-      "prompt": "Ocho",
-      "answers": [
-        "888",
-        "888",
-        "999",
-        "111"
+        "Ans1",
+        "This is the second",
+        "Third",
+        "Last one"
       ],
       "correctIndex": 3,
-      "id": 9
+      "id": 7
     }
   ]
 }
